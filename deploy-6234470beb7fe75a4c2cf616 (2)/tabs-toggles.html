@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from gomobile.website/demos/tabs-toggles.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 May 2021 19:57:38 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui">
+<title>GoMobile - Creative Mobile Template</title>
+<link rel="stylesheet" href="../vendor/swiper/swiper.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+	
+<!-- Overlay panel -->
+<div class="body-overlay"></div>
+<!-- Left panel -->
+<div id="panel-left"></div>
+<!-- Right panel -->
+<div id="panel-right"></div>
+
+<div class="panel-close panel-close--left"><img src="https://gomobile.website/assets/images/icons/black/close.svg" alt="" title=""/></div>
+<div class="panel-close panel-close--right"><img src="https://gomobile.website/assets/images/icons/black/close.svg" alt="" title=""/></div>
+
+<div class="page page--main" data-page="tabs">
+	
+	<!-- HEADER -->
+	<header class="header header--page header--fixed">	
+		<div class="header__inner">	
+			<div class="header__icon header__icon--menu open-panel" data-panel="left" data-arrow="right"><span></span><span></span><span></span><span></span><span></span><span></span></a></div>
+			<div class="header__logo header__logo--text"><a href="#"><strong>AI</strong>HEALPY</a></div>	
+			<div class="header__icon open-panel" data-panel="right" data-arrow="left"><img src="https://gomobile.website/assets/images/icons/white/user.svg" alt="" title=""/></div>
+                </div>
+	</header>
+	
+	<!-- PAGE CONTENT -->
+	<div class="page__content page__content--with-header">
+	
+		
+		<h3>주간 루틴</h3>
+		
+		<div class="toggle mb-20">
+			<div class="toggle__item">
+			  <input class="toggle__input" id="togg1" type="checkbox" name="toggle">
+			  <label class="toggle__label" for="togg1">월요일(가슴/삼두) <span></span></label>
+				  <div class="toggle__content">
+					<p>덤벨 플라이 4sets 12kg 10reps<br><br>벤치 프레스<br> 2sets 70kg 10reps<br>
+						3sets 75kg 8reps<br>2sets 80kg 5reps<br><br>인클라인 덤벨 프레스 4sets 24kg 10reps<br><br>딥스 4sets 맨몸 10reps</p>
+				  </div>
+			</div>
+			<br>
+			<div class="toggle__item">
+			  <input class="toggle__input" id="togg2" type="checkbox" name="toggle">
+			  <label class="toggle__label" for="togg2">화요일(등/이두) <span></span></label>
+				  <div class="toggle__content">
+					<p>렛폴다운 10sets 55kg 10reps<br><br>폴다운 4sets 60kg 10reps<br><br>티바로우 4sets 40kg 10reps<br><br>
+						시티드로우 4sets 45kg 10reps<br><br>해머 시티드 로우 4sets 20Kg 10reps
+					  </div>
+			</div>
+			<br>
+			<div class="toggle__item">
+			  <input class="toggle__input" id="togg3" type="checkbox" name="toggle">
+			  <label class="toggle__label" for="togg3">수요일(어깨/복근) <span></span></label>
+				  <div class="toggle__content">
+					<p>덤벨 숄더 프레스 5sets 25kg 10reps<br><br>밀리터리 프레스 6sets 50kg  10reps<br><br>사이드 레터럴 레이즈 8sets 8kg 20reps<br><br>리어델트 레이즈 8sets 8kg  20reps<br><br>행잉레그레이즈 4sets  맨몸  20reps</p>
+				  </div>
+			</div>
+		</div>
+		
+		<div class="accordion mb-20">
+			<div class="accordion__item">
+			  <input class="accordion__input" id="acc1" type="radio" name="accordion">
+			  <label class="accordion__label" for="acc1">목요일(하체) <span></span></label>
+			  <div class="accordion__content">
+			 <p>개발자가 극한의 상체충입니다.</p>
+			</div>
+			</div>
+			<br>
+			<div class="accordion__item">
+			  <input class="accordion__input" id="acc2" type="radio" name="accordion">
+			  <label class="accordion__label" for="acc2">금요일(가슴/삼두) <span></span></label>
+			  <div class="accordion__content">
+				<p>덤벨 플라이 4sets 12kg 10reps<br><br>벤치 프레스<br> 2sets 70kg 10reps<br>
+					3sets 75kg 8reps<br>2sets 80kg 5reps<br><br>인클라인 덤벨 프레스 4sets 24kg 10reps<br><br>딥스 4sets 맨몸 10reps</p>
+			   </div>
+			</div>
+			<br>
+			<div class="accordion__item">
+			  <input class="accordion__input" id="acc3" type="radio" name="accordion">
+			  <label class="accordion__label" for="acc3">토요일(등/이두) <span></span></label>
+			  <div class="accordion__content">
+				<p>렛폴다운 10sets 55kg 10reps<br><br>폴다운 4sets 60kg 10reps<br><br>티바로우 4sets 40kg 10reps<br><br>
+					시티드로우 4sets 45kg 10reps<br><br>해머 시티드 로우 4sets 20Kg 10reps
+					  </div>
+			</div>
+			<br>
+			<div class="accordion__item">
+				<input class="accordion__input" id="acc4" type="radio" name="accordion">
+				<label class="accordion__label" for="acc4">일요일(휴식) <span></span></label>
+				<div class="accordion__content">
+				  <p></p>
+				</div>
+			  </div>
+		</div>
+				
+	</div>
+			  
+
+
+
+</div>
+<!-- PAGE END -->
+
+<!-- Social Icons Popup -->
+<div id="popup-social"></div>
+ 
+<!-- Alert --> 
+<div id="popup-alert"></div>  
+
+<script src="../vendor/jquery/jquery-3.5.1.min.js"></script>
+<script src="../vendor/jquery/jquery.validate.min.js" ></script>
+<script src="../vendor/swiper/swiper.min.js"></script>
+<script src="js/swiper-init.js"></script>
+<script src="js/jquery.custom.js"></script>
+</body>
+
+<!-- Mirrored from gomobile.website/demos/tabs-toggles.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 May 2021 19:57:39 GMT -->
+</html>
+
