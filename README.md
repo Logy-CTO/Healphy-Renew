@@ -5,6 +5,3 @@
 백엔드 구현(Firebase -> Springboot)
 
 기능 추가 자세 속도
-
-
-Ps. 코드 개 역하네 
